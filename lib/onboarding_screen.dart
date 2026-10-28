@@ -19,3 +19,23 @@ class OnboardingScreen extends StatelessWidget {
               height: 250,
             ),
             const SizedBox(height: 30),
+
+            const Text(
+              'Makanan favorit anda',
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+              
+            ),
+            const SizedBox(height: 10,),
+
+            const Text(
+              'Dapatkan semua makanan favorit Anda di satu tempat, cukup memesan dan kami  akan mengurus sisanya',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.grey,)
+              ),
+            ),
+            const SizedBox(height: 40,),
